@@ -1,0 +1,18 @@
+
+.flex{
+   grid-template-columns: repeat(1, 1fr);
+}
+
+ .flex-box-1,
+ .flex-box-2{
+    grid-column: 1;
+}
+
+.flex-box-1{
+    grid-row: 2;
+}
+
+.flex-box-2{
+    grid-row: 1;
+}
+
