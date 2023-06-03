@@ -138,3 +138,20 @@ border-radius: 5px;
     text-align: center;
     padding-top: 150px;
  }
+
+ #modal{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    max-width: 50ch;
+    margin: 0 auto;
+    margin-top: 30vh;
+    border-radius: 10px;
+    padding: 50px;
+ }
+
+ #modal::backdrop{
+    background-color: rgba(0, 0, 0, 0.296);
+ }
