@@ -12,19 +12,25 @@
 </head>
 <body>
 
-    <section>
+    <section class="modalMask">
         <div class="container">
             <div class="flex card">
                 <div class="flex-box-1">
                     <h1 class="title pt-50 fs50">Stay Updated</h1>
                     <p class="lh1.5 pt10 pb10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nesciunt?</p>
-                    <li class="fs15 txt">Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
-                    <li class="fs15 txt">Lorem ipsum dolor sit amet, consectetur.</li>
-                    <li class="fs15 txt">Lorem ipsum dolor sit amet.</li>
+                    <ul>
+                        <li class="fs15 txt"> Lorem, ipsum dolor sit amet consectetur.</li>
+                        <li class="fs15 txt"> Lorem ipsum dolor sit amet, lorem ipsum.</li>
+                        <li class="fs15 txt"> Lorem ipsum dolor sit amet.</li>
+                    </ul>
                     <h3 class="bd__color pt30 pb10">Email address</h3>
                     <form action="">
                         <div>
                             <input id="input" class="input mb30" type="text" placeholder="Email@company.com">
+                        </div>
+
+                        <div>
+                            <input id="input2" class="input mb30" type="text" placeholder="Nombre">
                         </div>
                         <!-- <br>
                         <a class="btn btn-dark txt-white" href="#">Subscribe to montly newssletter</a> -->
@@ -49,7 +55,7 @@
                 </div> -->
 
                 <dialog id="modal">
-                    <h2>Hola, soy un modal</h2>
+                    <h2 id="tituloModal">Hola, soy un modal</h2>
             <p id="mensajes"></p>
             <p id="mensajes2"></p>
                 <button id="btn-cerrar-modal">Cerrar modal</button>
