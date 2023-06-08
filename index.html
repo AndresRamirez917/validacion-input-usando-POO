@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <section class="modalMask">
+    <section id="modalMask">
         <div class="container">
             <div class="flex card">
                 <div class="flex-box-1">
@@ -24,17 +24,17 @@
                         <li class="fs15 txt"> Lorem ipsum dolor sit amet.</li>
                     </ul>
                     <h3 class="bd__color pt30 pb10">Email address</h3>
-                    <form action="">
+                    <form >
                         <div>
-                            <input id="input" class="input mb30" type="text" placeholder="Email@company.com">
+                            <input id="email" class="input0 mb30" type="text" placeholder="Email@company.com">
                         </div>
 
                         <div>
-                            <input id="input2" class="input mb30" type="text" placeholder="Nombre">
+                            <input id="nombre" class="input1 mb30" type="text" placeholder="Nombre">
                         </div>
                         <!-- <br>
                         <a class="btn btn-dark txt-white" href="#">Subscribe to montly newssletter</a> -->
-                        <button id="btn_valida" class="btn btn-dark txt-white">Subscribe to montly newssletter</button>
+                        <button id="btn_valida" class="btn btn-dark txt-white" type="submit">Subscribe to montly newssletter</button>
                             </form>
                     </div>   
                 <div class="flex-box-2 ">
@@ -55,7 +55,7 @@
                 </div> -->
 
                 <dialog id="modal">
-                    <h2 id="tituloModal">Hola, soy un modal</h2>
+                    <h2 id="tituloModal">Atención</h2>
             <p id="mensajes"></p>
             <p id="mensajes2"></p>
                 <button id="btn-cerrar-modal">Cerrar modal</button>
