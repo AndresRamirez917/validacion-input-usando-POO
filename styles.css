@@ -168,16 +168,16 @@ li{
 .card{
     background-color: white;
     border-radius: 10px;
-    width: 100%;
+  
+    
 }
 
 .container{
     max-width: 1300px;
     padding: 50px 100px;
-   margin: 0 auto;
-    
-    
+   margin: 0 auto; 
 }
+
 .pt30{
     padding-top: 30px;
 }
@@ -213,7 +213,19 @@ margin-bottom: 10px;
     /* flex: 1; */
     grid-column: 1/2;
     grid-row: 1;
-    padding:0 10px 10px 100px;
+    /* padding: 20px 10px 10px 100px; */
+}
+
+.flex-box-1{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+
+ 
 }
 
 .flex-box-2{
